@@ -22,7 +22,8 @@ Nos proveen los archivos 'House_train_raw.csv', con 1460 observaciones y 81 dime
 
 ## Descripción de las dimensiones
 
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale.
+(Identifica el tipo de vivienda objeto de la venta)
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -42,6 +43,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
 MSZoning: Identifies the general zoning classification of the sale.
+(Identifica la clasificación de zonificación general de la venta)
 		
        A	Agriculture
        C	Commercial
@@ -53,21 +55,26 @@ MSZoning: Identifies the general zoning classification of the sale.
        RM	Residential Medium Density
 	
 LotFrontage: Linear feet of street connected to property
+(Pies lineales de calle conectados a la propiedad)
 
 LotArea: Lot size in square feet
+(Tamaño del lote en pies cuadrados)
 
 Street: Type of road access to property
+(Tipo de vía de acceso a la propiedad)
 
        Grvl	Gravel	
        Pave	Paved
        	
 Alley: Type of alley access to property
+(Tipo de callejón de acceso a la propiedad)
 
        Grvl	Gravel
        Pave	Paved
        NA 	No alley access
 		
 LotShape: General shape of property
+(Forma general de la propiedad)
 
        Reg	Regular	
        IR1	Slightly irregular
@@ -75,6 +82,7 @@ LotShape: General shape of property
        IR3	Irregular
        
 LandContour: Flatness of the property
+(Llanura de la propiedad)
 
        Lvl	Near Flat/Level	
        Bnk	Banked - Quick and significant rise from street grade to building
@@ -82,6 +90,7 @@ LandContour: Flatness of the property
        Low	Depression
 		
 Utilities: Type of utilities available
+(Tipo de utilidades disponibles)
 		
        AllPub	All public Utilities (E,G,W,& S)	
        NoSewr	Electricity, Gas, and Water (Septic Tank)
@@ -89,6 +98,7 @@ Utilities: Type of utilities available
        ELO	Electricity only	
 	
 LotConfig: Lot configuration
+(Configuración de lotes)
 
        Inside	Inside lot
        Corner	Corner lot
@@ -97,12 +107,14 @@ LotConfig: Lot configuration
        FR3	Frontage on 3 sides of property
 	
 LandSlope: Slope of property
+(Pendiente de la propiedad)
 		
        Gtl	Gentle slope
        Mod	Moderate Slope	
        Sev	Severe Slope
 	
 Neighborhood: Physical locations within Ames city limits
+(Ubicaciones físicas dentro de los límites de la ciudad de Ames)
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -131,6 +143,7 @@ Neighborhood: Physical locations within Ames city limits
        Veenker	Veenker
 			
 Condition1: Proximity to various conditions
+(Proximidad a diversas condiciones)
 	
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
@@ -143,6 +156,7 @@ Condition1: Proximity to various conditions
        RRAe	Adjacent to East-West Railroad
 	
 Condition2: Proximity to various conditions (if more than one is present)
+(Proximidad a varias condiciones (si hay más de una presente))
 		
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
